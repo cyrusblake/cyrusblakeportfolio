@@ -1,5 +1,6 @@
 
 import './App.css'
+import auth from './assets/Screenshot 2023-12-06 004630.png'
 
 function App() {
   
@@ -16,7 +17,7 @@ function App() {
           <img></img>
         </div>
         <awesome-slider height="x60%" bullets="true" color="grey" arrows="true">
-          <item source="/images/image-1.jpg"></item>
+          <item src={auth}></item>
           <item source="/images/image-1.jpg"></item>
           <item source="/images/image-1.jpg"></item>
         </awesome-slider>
