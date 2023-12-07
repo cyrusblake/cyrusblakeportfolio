@@ -13,8 +13,9 @@ function App() {
   return (
     <>
      
-      <h1>Projects</h1>
+      
       <div className="card">
+        <h1>Projects</h1>
         <div>
           <img src={img1} className="images" alt=''></img>
           <img src={img6} className="images" alt=''></img>
