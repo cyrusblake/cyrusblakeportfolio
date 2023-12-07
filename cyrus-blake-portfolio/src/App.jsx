@@ -1,7 +1,7 @@
 
 import './App.css'
 import img1 from './assets/Screenshot 2023-12-06 004630.png'
-import img2 from './assets/Screenshot 2023-11-01 085753.png'
+import img2 from './assets/Screenshot 2023-12-07 015130.png'
 import img3 from './assets/Screenshot 2023-12-07 002518.png'
 import img4 from './assets/Screenshot 2023-gchcgchkc-30 024604.png'
 import img5 from './assets/Screenshot 2023-12-07 011605.png'
