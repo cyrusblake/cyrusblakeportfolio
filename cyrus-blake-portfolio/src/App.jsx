@@ -3,6 +3,8 @@ import './App.css'
 import img1 from './assets/Screenshot 2023-12-06 004630.png'
 import img2 from './assets/Screenshot 2023-11-01 085753.png'
 import img3 from './assets/Screenshot 2023-12-07 002518.png'
+import img4 from './assets/Screenshot 2023-gchcgchkc-30 024604.png'
+import img5 from './assets/Screenshot 2023-12-07 011605.png'
 
 function App() {
   
@@ -14,15 +16,16 @@ function App() {
       <div className="card">
         <div>
           <img src={img1} className="images" alt=''></img>
-          <img src={img2} className="images" alt=''></img>
-        </div>
-        <div>
           <img src={img3} className="images" alt=''></img>
+        </div>
+        <div>
+          
+          <img src={img2} className="images" alt=''></img>
           <img src={img1} className="images" alt=''></img>
         </div>
         <div>
-          <img src={img1} className="images" alt=''></img>
-          <img src={img1} className="images" alt=''></img>
+          <img src={img4} className="images" alt=''></img>
+          <img src={img5} className="images" alt=''></img>
         </div>
         <p className="">
         Click Here To View All Projects On GitHub
