@@ -16,12 +16,11 @@ function App() {
       <div className="card">
         <div>
           <img src={img1} className="images" alt=''></img>
-          <img src={img3} className="images" alt=''></img>
+          <img src={img1} className="images" alt=''></img>
         </div>
         <div>
-          
-          <img src={img2} className="images" alt=''></img>
-          <img src={img1} className="images" alt=''></img>
+          <img src={img3} className="images" alt=''></img>
+          <img src={img2} className="images" alt=''></img> 
         </div>
         <div>
           <img src={img4} className="images" alt=''></img>
