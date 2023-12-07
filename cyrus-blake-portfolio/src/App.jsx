@@ -1,6 +1,6 @@
 
 import './App.css'
-import auth from './assets/Screenshot 2023-12-06 004630.png'
+import img1 from './assets/Screenshot 2023-12-06 004630.png'
 
 function App() {
   
@@ -11,23 +11,25 @@ function App() {
       <h1>Projects</h1>
       <div className="card">
         <div>
-          <img></img>
+          <img src={img1} className="images" alt=''></img>
+          
+          <img src={img1} className="images" alt=''></img>
         </div>
         <div>
-          <img></img>
-        </div>
-        <awesome-slider height="x60%" bullets="true" color="grey" arrows="true">
-          <item src={auth}></item>
-          <item source="/images/image-1.jpg"></item>
-          <item source="/images/image-1.jpg"></item>
-        </awesome-slider>
-        
+          <img src={img1} className="images" alt=''></img>
 
-        
-      </div>
-      <p className="read-the-docs">
+          <img src={img1} className="images" alt=''></img>
+        </div>
+        <div>
+          <img src={img1} className="images" alt=''></img>
+          <img src={img1} className="images" alt=''></img>
+        </div>
+
+        <p className="read-the-docs">
         Click Here To View All Projects On GitHub
-      </p>
+        </p>
+      </div>
+      
     </>
   )
 }
