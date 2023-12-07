@@ -25,7 +25,7 @@ function App() {
           <img src={img1} className="images" alt=''></img>
         </div>
 
-        <p className="read-the-docs">
+        <p className="">
         Click Here To View All Projects On GitHub
         </p>
       </div>
