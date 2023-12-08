@@ -17,16 +17,31 @@ function App() {
       <div className="card">
         <h1>Projects</h1>
         <div>
-          <img src={img1} className="images" alt=''></img>
-          <img src={img6} className="images" alt=''></img>
+          <a href="https://github.com/cyrusblake/Authentication-System-Java-Full-Stack">
+            <img src={img1} className="images" alt=''></img>
+          </a>
+          <a href="https://github.com/cyrusblake/Tenant">
+             <img src={img6} className="images" alt=''></img>
+          </a>
         </div>
         <div>
-          <img src={img3} className="images" alt=''></img>
-          <img src={img2} className="images" alt=''></img> 
+          <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page"> 
+            <img src={img3} className="images" alt=''></img>
+          </a>
+          <a href="https://github.com/cyrusblake/WorkWord"> 
+            <img src={img2} className="images" alt=''></img> 
+          </a>
+          
+          
         </div>
         <div>
-          <img src={img4} className="images" alt=''></img>
-          <img src={img5} className="images" alt=''></img>
+          <a href="https://github.com/cyrusblake/Contor-Web">
+            <img src={img4} className="images" alt=''></img>
+          </a>
+          <a href="https://github.com/cyrusblake/Kick-Clone">
+            <img src={img5} className="images" alt=''></img>
+          </a>
+          
         </div>
         <a className="" href="https://github.com/cyrusblake?tab=repositories">
         Click Here To View All Projects On GitHub
