@@ -105,7 +105,7 @@ function App() {
         <section className="section"> 
             <div>
               <h4>Kick Clone</h4>
-              <a href="https://kick-clone.vercel.app/">
+              <a href="https://github.com/cyrusblake/Kick-Clone">
               <img src={img5} className="images" alt=''></img>
               </a>
             </div>
