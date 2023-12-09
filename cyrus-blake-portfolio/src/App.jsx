@@ -8,6 +8,7 @@ import img5 from './assets/Screenshot 2023-12-07 011605.png'
 import img6 from  './assets/Screenshot 2023-12-07 022959.png'
 import img7 from './assets/Screenshot 2023-12-09 040430.png'
 import img8 from './assets/unnamed.png'
+import img9 from './assets/unnamed(1).png'
 
 function App() {
   
@@ -95,8 +96,8 @@ function App() {
             </div>
             <div>
               <h4>View Project Description</h4>
-              <a href="https://github.com/cyrusblake/Kick-Clone">
-              <img src={img5} className="images" alt=''></img>
+              <a href="https://github.com/cyrusblake/Player-Accounts">
+              <img src={img9} className="images" alt=''></img>
               </a>
             </div>
         </section>
