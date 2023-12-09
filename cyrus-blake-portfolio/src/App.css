@@ -18,13 +18,32 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.header{
+  margin-bottom: 50px;
+}
+
+.top-div{
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.about-div{
+  margin-bottom: 50px;
+}
+
+
+.about-content{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
 
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* height: 100vh;  */
     transform: translateY(-50px);
     text-align: center;
 }
@@ -35,12 +54,25 @@
   cursor: pointer;
 }
 
+.rows{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+
+@media only screen and (max-width: 850px){
+  .about-content{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+}
 
 @media only screen and (max-width: 600px){
   .images{
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
+   
   }
 
 }
