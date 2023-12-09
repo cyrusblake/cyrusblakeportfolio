@@ -44,13 +44,13 @@ function App() {
             
         <section className='section'>
           <div>
-            <h4>View Project Description</h4>
+            <h4>Authentication System</h4>
             <a href="https://github.com/cyrusblake/Authentication-System-Java-Full-Stack">
             <img src={img1} className="images" alt=''></img>
             </a>
           </div>
           <div>
-            <h4>View Project Description</h4>
+            <h4>Tenant System</h4>
             <a href="https://github.com/cyrusblake/Tenant">
             <img src={img6} className="images" alt=''></img>
             </a>
@@ -59,13 +59,13 @@ function App() {
 
         <section className="section"> 
           <div>
-            <h4>View Project Description</h4>
+            <h4>Year Up Signup & Login Page</h4>
             <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page"> 
             <img src={img3} className="images" alt=''></img>
             </a>
           </div>
           <div>
-            <h4>View Project Description</h4>
+            <h4>Work Word</h4>
             <a href="https://github.com/cyrusblake/WorkWord"> 
             <img src={img2} className="images" alt=''></img> 
             </a>
@@ -74,13 +74,13 @@ function App() {
 
         <section className="section"> 
           <div>
-            <h4>View Project Description</h4>
+            <h4>Contor</h4>
             <a href="https://github.com/cyrusblake/Contor-Web">
             <img src={img4} className="images" alt=''></img>
             </a>
           </div>
           <div>
-            <h4>View Project Description</h4>
+            <h4>Weather App</h4>
             <a href="https://github.com/cyrusblake/Weather-App">
             <img src={img7} className="images" alt=''></img>
             </a>
@@ -89,13 +89,13 @@ function App() {
 
         <section className="section"> 
             <div>
-              <h4>View Project Description</h4>
+              <h4>Web Scraper</h4>
               <a href="https://github.com/cyrusblake/Web-Scraper">
               <img src={img8} className="images" alt=''></img>
               </a>
             </div>
             <div>
-              <h4>View Project Description</h4>
+              <h4>Player Accounts</h4>
               <a href="https://github.com/cyrusblake/Player-Accounts">
               <img src={img9} className="images" alt=''></img>
               </a>
