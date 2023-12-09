@@ -36,8 +36,10 @@ function App() {
           </p>
         </div>
 
-        <h2>Projects</h2>
-        <div className='rows'>
+        <h2 className="projects">Projects</h2>
+
+            
+        <section className='section'>
           <div>
             <h4>View Project Description</h4>
             <a href="https://github.com/cyrusblake/Authentication-System-Java-Full-Stack">
@@ -47,11 +49,12 @@ function App() {
           <div>
             <h4>View Project Description</h4>
             <a href="https://github.com/cyrusblake/Tenant">
-             <img src={img6} className="images" alt=''></img>
+            <img src={img6} className="images" alt=''></img>
             </a>
           </div>
-        </div>
-        <div className='rows'>
+        </section>
+
+        <section className="section"> 
           <div>
             <h4>View Project Description</h4>
             <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page"> 
@@ -64,21 +67,22 @@ function App() {
             <img src={img2} className="images" alt=''></img> 
             </a>
           </div>
-        </div>
-        <div className='rows'>
+        </section>
+
+        <section className="section"> 
           <div>
-            <h4>View Project Description</h4>
-            <a href="https://github.com/cyrusblake/Contor-Web">
-            <img src={img4} className="images" alt=''></img>
-            </a>
-          </div>
-          <div>
-            <h4>View Project Description</h4>
-            <a href="https://github.com/cyrusblake/Kick-Clone">
-            <img src={img5} className="images" alt=''></img>
-            </a>
-          </div>
-        </div>
+              <h4>View Project Description</h4>
+              <a href="https://github.com/cyrusblake/Contor-Web">
+              <img src={img4} className="images" alt=''></img>
+              </a>
+            </div>
+            <div>
+              <h4>View Project Description</h4>
+              <a href="https://github.com/cyrusblake/Kick-Clone">
+              <img src={img5} className="images" alt=''></img>
+              </a>
+            </div>
+        </section>
         <a className="" href="https://github.com/cyrusblake?tab=repositories">
         Click Here To View All Projects On GitHub
         </a>
