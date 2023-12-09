@@ -72,24 +72,26 @@ function App() {
 
         <section className="section"> 
           <div>
-              <h4>View Project Description</h4>
-              <a href="https://github.com/cyrusblake/Contor-Web">
-              <img src={img4} className="images" alt=''></img>
-              </a>
-            </div>
+            <h4>View Project Description</h4>
+            <a href="https://github.com/cyrusblake/Contor-Web">
+            <img src={img4} className="images" alt=''></img>
+            </a>
+          </div>
+          <div>
+            <h4>View Project Description</h4>
+            <a href="https://github.com/cyrusblake/Weather-App">
+            <img src={img7} className="images" alt=''></img>
+            </a>
+          </div>
+        </section>
+
+        <section className="section"> 
+           
+
             <div>
               <h4>View Project Description</h4>
               <a href="https://github.com/cyrusblake/Kick-Clone">
               <img src={img5} className="images" alt=''></img>
-              </a>
-            </div>
-        </section>
-
-        <section className="section"> 
-          <div>
-              <h4>View Project Description</h4>
-              <a href="https://github.com/cyrusblake/Weather-App">
-              <img src={img7} className="images" alt=''></img>
               </a>
             </div>
             <div>
