@@ -9,6 +9,7 @@ import img6 from  './assets/Screenshot 2023-12-07 022959.png'
 import img7 from './assets/Screenshot 2023-12-09 040430.png'
 import img8 from './assets/unnamed.png'
 import img9 from './assets/unnamed1.png'
+import img10 from './assets/unnameddyhdd.png'
 
 function App() {
   
@@ -98,6 +99,20 @@ function App() {
               <h4>Player Accounts</h4>
               <a href="https://github.com/cyrusblake/Player-Accounts">
               <img src={img9} className="images" alt=''></img>
+              </a>
+            </div>
+        </section>
+        <section className="section"> 
+            <div>
+              <h4>Kick Clone</h4>
+              <a href="https://kick-clone.vercel.app/">
+              <img src={img5} className="images" alt=''></img>
+              </a>
+            </div>
+            <div>
+              <h4>Python Database Connector</h4>
+              <a href="https://github.com/cyrusblake/Menagerie-Database">
+              <img src={img10} className="images" alt=''></img>
               </a>
             </div>
         </section>
