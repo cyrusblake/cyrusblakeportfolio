@@ -8,7 +8,7 @@ import img5 from './assets/Screenshot 2023-12-07 011605.png'
 import img6 from  './assets/Screenshot 2023-12-07 022959.png'
 import img7 from './assets/Screenshot 2023-12-09 040430.png'
 import img8 from './assets/unnamed.png'
-import img9 from './assets/unnamed(1).png'
+import img9 from './assets/unnamed1.png'
 
 function App() {
   
