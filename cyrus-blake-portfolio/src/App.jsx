@@ -6,6 +6,7 @@ import img3 from './assets/Screenshot 2023-12-07 002518.png'
 import img4 from './assets/Screenshot 2023-gchcgchkc-30 024604.png'
 import img5 from './assets/Screenshot 2023-12-07 011605.png'
 import img6 from  './assets/Screenshot 2023-12-07 022959.png'
+import img7 from './assets/Screenshot 2023-12-09 040430.png'
 
 function App() {
   
@@ -74,6 +75,21 @@ function App() {
               <h4>View Project Description</h4>
               <a href="https://github.com/cyrusblake/Contor-Web">
               <img src={img4} className="images" alt=''></img>
+              </a>
+            </div>
+            <div>
+              <h4>View Project Description</h4>
+              <a href="https://github.com/cyrusblake/Kick-Clone">
+              <img src={img5} className="images" alt=''></img>
+              </a>
+            </div>
+        </section>
+
+        <section className="section"> 
+          <div>
+              <h4>View Project Description</h4>
+              <a href="https://github.com/cyrusblake/Weather-App">
+              <img src={img7} className="images" alt=''></img>
               </a>
             </div>
             <div>
