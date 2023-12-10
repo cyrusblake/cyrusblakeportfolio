@@ -55,11 +55,11 @@
 .section{
   display: flex;
   flex-wrap: wrap;
-  
   align-items: center;
   justify-content: center;
   transform: translateY(-50px);
   text-align: center;
+  margin-bottom: 50px;
   
 }
 

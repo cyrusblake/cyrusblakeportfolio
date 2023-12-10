@@ -50,12 +50,20 @@ function App() {
             <a href="https://github.com/cyrusblake/Authentication-System-Java-Full-Stack">
             <img src={img1} className="images" alt=''></img>
             </a>
+            <div>
+              <a href="https://authentication-system-java-full-stack.vercel.app/">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/Authentication-System-Java-Full-Stack">GitHub</a>
+            </div>
           </div>
           <div>
             <h4>Tenant System</h4>
             <a href="https://github.com/cyrusblake/Tenant">
             <img src={img6} className="images" alt=''></img>
             </a>
+            <div>
+              <a href="https://github.com/cyrusblake/Tenant">GitHub</a>
+            </div>
           </div>
         </section>
 
@@ -65,12 +73,22 @@ function App() {
             <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page"> 
             <img src={img3} className="images" alt=''></img>
             </a>
+            <div>
+              <a href="https://year-up-login-and-signup-page.vercel.app/">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page">GitHub</a>
+            </div>
           </div>
           <div>
             <h4>Work Word</h4>
             <a href="https://github.com/cyrusblake/WorkWord"> 
             <img src={img2} className="images" alt=''></img> 
             </a>
+            <div>
+              <a href="https://work-word.vercel.app/">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/WorkWord">GitHub</a>
+            </div>
           </div>
         </section>
 
@@ -80,12 +98,22 @@ function App() {
             <a href="https://github.com/cyrusblake/Contor-Web">
             <img src={img4} className="images" alt=''></img>
             </a>
+            <div>
+              <a href="https://contor-web.vercel.app/Profile">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/Contor-Web">GitHub</a>
+            </div>
           </div>
           <div>
             <h4>Weather App</h4>
             <a href="https://github.com/cyrusblake/Weather-App">
             <img src={img7} className="images" alt=''></img>
             </a>
+            <div>
+              <a href="https://cyrusblake.github.io/Weather-App/">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/Weather-App">GitHub</a>
+            </div>
           </div>
         </section>
 
@@ -95,41 +123,63 @@ function App() {
               <a href="https://github.com/cyrusblake/Web-Scraper">
               <img src={img8} className="images" alt=''></img>
               </a>
+              <div>
+              <a href="https://github.com/cyrusblake/Web-Scraper">GitHub</a>
+            </div>
             </div>
             <div>
               <h4>Player Accounts</h4>
               <a href="https://github.com/cyrusblake/Player-Accounts">
               <img src={img9} className="images" alt=''></img>
               </a>
+              <div>
+              <a href="https://github.com/cyrusblake/Player-Accounts">GitHub</a>
+              </div>
             </div>
         </section>
+
         <section className="section"> 
             <div>
               <h4>Kick Clone</h4>
               <a href="https://github.com/cyrusblake/Kick-Clone">
               <img src={img5} className="images" alt=''></img>
               </a>
+              <div>
+              <a href="https://kick-clone.vercel.app/">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/Kick-Clone">GitHub</a>
+            </div>
             </div>
             <div>
               <h4>Python Database Connector</h4>
               <a href="https://github.com/cyrusblake/Menagerie-Database">
               <img src={img10} className="images" alt=''></img>
               </a>
+              <div>
+             <a href="https://github.com/cyrusblake/Menagerie-Database">GitHub</a>
+            </div>
             </div>
         </section>
+        
         <section className="section"> 
             <div>
               <h4>Virtual Machine</h4>
               <a href="https://docs.google.com/presentation/d/1Hc5a97gQl1EdbgG2qeNBLieavhJaeTcePZIeGAZ_e8s/edit?usp=sharing">
               <img src={img11} className="images" alt=''></img>
               </a>
+              <div>
+              <a href="https://docs.google.com/presentation/d/1Hc5a97gQl1EdbgG2qeNBLieavhJaeTcePZIeGAZ_e8s/edit#slide=id.p1">Presentation</a>
             </div>
-            <div>
+            </div>
+            {/* <div>
               <h4>Python Database Connector</h4>
               <a href="https://github.com/cyrusblake/Menagerie-Database">
               <img src={img10} className="images" alt=''></img>
               </a>
+              <div>
+              <a>Live</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>GitHub</a>
             </div>
+            </div> */}
         </section>
         <a className="" href="https://github.com/cyrusblake?tab=repositories">
         Click Here To View All Projects On GitHub
