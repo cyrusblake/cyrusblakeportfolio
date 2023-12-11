@@ -99,7 +99,7 @@ function App() {
             <img src={img4} className="images" alt=''></img>
             </a>
             <div>
-              <a href="https://contor-web.vercel.app/Profile">Live</a>
+              <a href="https://contor-web.vercel.app/">Live</a>
               &nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://github.com/cyrusblake/Contor-Web">GitHub</a>
             </div>
