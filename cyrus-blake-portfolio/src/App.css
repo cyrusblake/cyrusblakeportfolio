@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -16,6 +20,22 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.nav-bar{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  max-width: 100%;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+ 
+  text-align: center;
+}
+
+.nav-bar > a {
+  margin: 5px;
 }
 
 .header{
@@ -75,6 +95,13 @@
   cursor: pointer;
 }
 
+
+@media only screen and (max-width: 400px){
+  .nav-bar > a{
+    font-size: 14px;
+  }
+
+}
 
 
 @media only screen and (max-width: 850px){

@@ -14,36 +14,52 @@ import img11 from './/assets/Screenshot 2022-10-14 162524.png'
 
 
 function App() {
+
   
+    document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('a');
+
+      links.forEach(function (link) {
+          link.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              const targetId = this.getAttribute('href').substring(1);
+              const targetElement = document.getElementById(targetId);
+
+              window.scrollTo({
+                  top: targetElement.offsetTop,
+                  behavior: 'smooth'
+              });
+          });
+      });
+  });
+
 
   return (
      
       <div className="card">
+        <div className="nav-bar">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+        </div>
         <h1 className="header">Cyrus Blake Portfolio</h1>
-        <img className="fp" src={('../public/IMG_5202.jpg')} alt="cyrus image"></img>
+        <img className="fp" src={('../public/IMG_5202.jpg')} alt="cyrus image" />
 
+        <h2 id="about">About Me</h2>
         <div className="about-div">
-          <h2>About Me</h2>
           <p className="about-content">
-          My name is Cyrus Blake and I'm actively seeking a 
-          full-time entry-level role in software engineering. 
-          As a former Wells Fargo intern, I honed my skills in TypeScript, Angular, Java, 
-          and SpringBoot for full-stack development. I'm a graduate student from
-          Year Up's Software Development Bootcamp, well-versed in software 
-          and application development, full-stack web development, data analytics, 
-          and computer hardware. My goal is to apply my diverse skill set to real-world challenges in 
-          software engineering. I'm eager to collaborate with professionals and 
-          organizations that share my passion for technology.
-          <br/>
-          <p>
-            <a href="https://www.linkedin.com/in/cyrus-blake-10b8001a9/">Linkin</a> 
-            &nbsp;&nbsp;&nbsp;&nbsp;  
-            <a href="https://github.com/cyrusblake?tab=repositories">GitHub</a>    
+            My name is Cyrus Blake and I'm actively seeking a full-time entry-level role in software engineering. As a former Wells Fargo intern, I honed my skills in TypeScript, Angular, Java, and SpringBoot for full-stack development. I'm a graduate student from Year Up's Software Development Bootcamp, well-versed in software and application development, full-stack web development, data analytics, and computer hardware. My goal is to apply my diverse skill set to real-world challenges in software engineering. I'm eager to collaborate with professionals and organizations that share my passion for technology.
           </p>
+          <p>
+            <a href="https://www.linkedin.com/in/cyrus-blake-10b8001a9/">LinkedIn</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/cyrusblake?tab=repositories">GitHub</a>
           </p>
         </div>
 
-        <h2 className="projects">Projects</h2>
+        <h2 id="projects" className="projects">Projects</h2>
 
             
         <section className='section'>
