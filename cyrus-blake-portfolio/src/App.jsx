@@ -12,6 +12,7 @@ import img9 from './assets/unnamed1.png'
 import img10 from './assets/unnameddyhdd.png'
 import img11 from './/assets/Screenshot 2022-10-14 162524.png'
 
+
 function App() {
   
 
@@ -19,6 +20,7 @@ function App() {
      
       <div className="card">
         <h1 className="header">Cyrus Blake Portfolio</h1>
+        <img className="fp" src={('../public/IMG_5202.jpg')} alt="cyrus image"></img>
 
         <div className="about-div">
           <h2>About Me</h2>
