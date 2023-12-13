@@ -25,7 +25,6 @@ html {
 .nav-bar{
   display: flex;
   flex-wrap: wrap;
- 
   width: 300px;
   align-items: center;
   justify-content: center;
@@ -95,9 +94,13 @@ html {
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
   .nav-bar > a{
-    font-size: 14px;
+    font-size: 10px;
+  }
+
+  .nav-bar{
+    width: 200px;
   }
 
 }
