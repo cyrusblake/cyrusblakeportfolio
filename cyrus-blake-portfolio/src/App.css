@@ -25,9 +25,8 @@ html {
 .nav-bar{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
-  max-width: 100%;
-  width: 100vw;
+ 
+  width: 300px;
   align-items: center;
   justify-content: center;
  

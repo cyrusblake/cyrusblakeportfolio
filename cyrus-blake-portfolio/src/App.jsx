@@ -11,6 +11,7 @@ import img8 from './assets/unnamed.png'
 import img9 from './assets/unnamed1.png'
 import img10 from './assets/unnameddyhdd.png'
 import img11 from './/assets/Screenshot 2022-10-14 162524.png'
+import img12 from './assets/Screenshot 2023-12-12 184048.png'
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
           <a href="#experience">Experience</a>
         </div>
         <h1 className="header">Cyrus Blake Portfolio</h1>
-        <img className="fp" src={('../public/IMG_5202.jpg')} alt="cyrus image" />
+        {/* <img className="fp" src={('../public/IMG_5202.jpg')} alt="cyrus image" /> */}
 
         <h2 id="about">About Me</h2>
         <div className="about-div">
@@ -75,6 +76,21 @@ function App() {
             </div>
           </div>
           <div>
+            <h4>LinkTree Clone</h4>
+            <a href="https://github.com/cyrusblake/LinkTree-Clone">
+            <img src={img12} className="images" alt=''></img>
+            </a>
+            <div>
+              <a href="https://link-tree-clone-olive.vercel.app/">Live</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://github.com/cyrusblake/LinkTree-Clone">GitHub</a>
+            </div>
+          </div>
+          
+        </section>
+
+        <section className="section"> 
+          <div>
             <h4>Tenant System</h4>
             <a href="https://github.com/cyrusblake/Tenant">
             <img src={img6} className="images" alt=''></img>
@@ -83,9 +99,6 @@ function App() {
               <a href="https://github.com/cyrusblake/Tenant">GitHub</a>
             </div>
           </div>
-        </section>
-
-        <section className="section"> 
           <div>
             <h4>Year Up Signup & Login Page</h4>
             <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page"> 
@@ -97,20 +110,21 @@ function App() {
               <a href="https://github.com/cyrusblake/Year-Up-Login-and-Signup-Page">GitHub</a>
             </div>
           </div>
-          <div>
-            <h4>Work Word</h4>
-            <a href="https://github.com/cyrusblake/WorkWord"> 
-            <img src={img2} className="images" alt=''></img> 
-            </a>
-            <div>
-              <a href="https://work-word.vercel.app/">Live</a>
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://github.com/cyrusblake/WorkWord">GitHub</a>
-            </div>
-          </div>
+          
         </section>
 
         <section className="section"> 
+          <div>
+              <h4>Work Word</h4>
+              <a href="https://github.com/cyrusblake/WorkWord"> 
+              <img src={img2} className="images" alt=''></img> 
+              </a>
+              <div>
+                <a href="https://work-word.vercel.app/">Live</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/cyrusblake/WorkWord">GitHub</a>
+              </div>
+            </div>
           <div>
             <h4>Contor</h4>
             <a href="https://github.com/cyrusblake/Contor-Web">
@@ -122,20 +136,22 @@ function App() {
               <a href="https://github.com/cyrusblake/Contor-Web">GitHub</a>
             </div>
           </div>
-          <div>
-            <h4>Weather App</h4>
-            <a href="https://github.com/cyrusblake/Weather-App">
-            <img src={img7} className="images" alt=''></img>
-            </a>
-            <div>
-              <a href="https://cyrusblake.github.io/Weather-App/">Live</a>
-              &nbsp;&nbsp;&nbsp;&nbsp;
-              <a href="https://github.com/cyrusblake/Weather-App">GitHub</a>
-            </div>
-          </div>
+          
         </section>
 
-        <section className="section"> 
+        <section className="section">
+
+            <div>
+              <h4>Weather App</h4>
+              <a href="https://github.com/cyrusblake/Weather-App">
+              <img src={img7} className="images" alt=''></img>
+              </a>
+              <div>
+                <a href="https://cyrusblake.github.io/Weather-App/">Live</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://github.com/cyrusblake/Weather-App">GitHub</a>
+              </div>
+            </div>
             <div>
               <h4>Web Scraper</h4>
               <a href="https://github.com/cyrusblake/Web-Scraper">
@@ -145,6 +161,10 @@ function App() {
               <a href="https://github.com/cyrusblake/Web-Scraper">GitHub</a>
             </div>
             </div>
+            
+        </section>
+
+        <section className="section"> 
             <div>
               <h4>Player Accounts</h4>
               <a href="https://github.com/cyrusblake/Player-Accounts">
@@ -154,9 +174,6 @@ function App() {
               <a href="https://github.com/cyrusblake/Player-Accounts">GitHub</a>
               </div>
             </div>
-        </section>
-
-        <section className="section"> 
             <div>
               <h4>Kick Clone</h4>
               <a href="https://github.com/cyrusblake/Kick-Clone">
@@ -168,6 +185,10 @@ function App() {
               <a href="https://github.com/cyrusblake/Kick-Clone">GitHub</a>
             </div>
             </div>
+           
+        </section>
+        
+        <section className="section"> 
             <div>
               <h4>Python Database Connector</h4>
               <a href="https://github.com/cyrusblake/Menagerie-Database">
@@ -177,9 +198,6 @@ function App() {
              <a href="https://github.com/cyrusblake/Menagerie-Database">GitHub</a>
             </div>
             </div>
-        </section>
-        
-        <section className="section"> 
             <div>
               <h4>Virtual Machine</h4>
               <a href="https://docs.google.com/presentation/d/1Hc5a97gQl1EdbgG2qeNBLieavhJaeTcePZIeGAZ_e8s/edit?usp=sharing">
