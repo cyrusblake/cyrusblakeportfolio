@@ -260,9 +260,10 @@ function App() {
         <h2 id="experience">Experience</h2>
         <div>
           <div className="experience-div">
-            <h3>Software Engineer Intern
+            <h3> Wells Fargo
             <br/>
-            Wells Fargo
+            Software Engineer Intern
+           
             </h3>
             <p>February 2023 - July 2023</p>
           </div>
