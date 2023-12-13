@@ -220,6 +220,74 @@ function App() {
         <a className="" href="https://github.com/cyrusblake?tab=repositories">
         Click Here To View All Projects On GitHub
         </a>
+        <h2 id="skills">Skills</h2>
+        <div className='skills-div'>
+          <p className="pskills">Java</p>
+          <p className="pskills">Python</p>
+          <p className="pskills">JavaScript</p>
+          <p className="pskills">TypeScript</p>
+          <p className="pskills" >HTML</p>
+          <p className="pskills">CSS</p>
+          <p className="pskills">React</p>
+          <p className="pskills">Spring Boot</p>
+          <p className="pskills">Express.js</p>
+          <p className="pskills">Node.js</p>
+          <p className="pskills">Next.js</p>
+          <p className="pskills">Angular</p>
+          <p className="pskills">MySQL</p>
+          <p className="pskills">SQL</p>
+          <p className="pskills">MongoDB</p>
+          <p className="pskills">Bootstrap</p>
+          <p className="pskills">Vue.js</p>
+          <p className="pskills">JUnit</p>
+          <p className="pskills">JSON</p>
+          <p className="pskills">XML</p>
+          <p className="pskills">Netlify</p>
+          <p className="pskills">Git</p>
+          <p className="pskills">GitHub</p>
+          <p className="pskills">Jira</p>
+          <p className="pskills">Agile</p>
+          <p className="pskills">Scrum</p>
+          <p className="pskills">Vercel</p>
+          <p className="pskills">REST</p>
+          <p className="pskills">RESTful Api</p>
+          <p className="pskills">Api</p>
+          <p className="pskills">Unit Test</p>
+          <p className="pskills">Unit Testing</p>
+          <p className="pskills">Postman</p>
+        </div>
+
+        <h2 id="experience">Experience</h2>
+        <div>
+          <div className="experience-div">
+            <h3>Software Engineer Intern
+            <br/>
+            Wells Fargo
+            </h3>
+            <p>February 2023 - July 2023</p>
+          </div>
+          <div className="experience-div">
+            <h3>Kings County Supreme Court
+            <br/>
+            Network System Technician Intern
+            </h3>
+            <p>February 2023 - July 2023</p>
+          </div>
+          <div className="experience-div">
+            <h3>Medgar Evers College
+            <br/>
+            Web Developer & Business Trainee
+            </h3>
+            <p>February 2023 - July 2023</p>
+          </div>
+          <div className="experience-div">
+            <h3>Departmnet for the Aging
+            <br/>
+            Information Technology Intern
+            </h3>
+            <p>February 2023 - July 2023</p>
+          </div>
+        </div>
       </div>
   )
 }
