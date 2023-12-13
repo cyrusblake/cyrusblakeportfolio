@@ -272,21 +272,21 @@ function App() {
             <br/>
             Network System Technician Intern
             </h3>
-            <p>February 2023 - July 2023</p>
+            <p>July 2022 - August 2022</p>
           </div>
           <div className="experience-div">
             <h3>Medgar Evers College
             <br/>
             Web Developer & Business Trainee
             </h3>
-            <p>February 2023 - July 2023</p>
+            <p>July 2021 - August 2021</p>
           </div>
           <div className="experience-div">
             <h3>Departmnet for the Aging
             <br/>
             Information Technology Intern
             </h3>
-            <p>February 2023 - July 2023</p>
+            <p>July 2019 - August 2019</p>
           </div>
         </div>
       </div>
